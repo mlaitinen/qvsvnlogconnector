@@ -1,0 +1,16 @@
+﻿<Window x:Class="QvSvnLogConnector.Login"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="QvSvnLogConnector" Height="170" Width="430">
+	<Grid>
+		<Button Content="OK" Height="23" Margin="0,109,228,0" Name="okButton" VerticalAlignment="Top" IsDefault="True" Click="okBbutton_Click" HorizontalAlignment="Right" Width="75" />
+        <Button Content="Cancel" Height="23" Margin="0,109,147,0" Name="button2" VerticalAlignment="Top" IsCancel="True" IsDefault="False" HorizontalAlignment="Right" Width="75" />
+        <Button Content="Test Connection" Height="23" Margin="0,109,27,0" Name="button3" VerticalAlignment="Top" Click="testButton_Click" HorizontalAlignment="Right" Width="114" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,12,27,0" Name="serverTextBox" VerticalAlignment="Top" Width="294" Text="localhost" />
+        <Label Content="Server:" Height="28" HorizontalAlignment="Right" Margin="0,10,327,0" Name="label3" VerticalAlignment="Top" Width="70" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,39,27,0" Name="userTextBox" VerticalAlignment="Top" Width="294" Text="InterBlag" />
+        <Label Content="Username:" Height="28" HorizontalAlignment="Right" Margin="0,39,327,0" Name="label1" VerticalAlignment="Top" Width="70" />
+        <Label Content="Password:" Height="28" HorizontalAlignment="Right" Margin="0,68,327,0" Name="label2" VerticalAlignment="Top" Width="70" />
+        <PasswordBox Height="23" HorizontalAlignment="Right" Margin="0,68,27,0" Name="passwordBox" VerticalAlignment="Top" Width="294" Password="BlagBlag" />
+	</Grid>
+</Window>
